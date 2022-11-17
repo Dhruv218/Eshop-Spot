@@ -1,0 +1,136 @@
+ .t-h {
+   background-color: rgb(192, 183, 183);
+   font-size: x-large;
+   border-spacing: 0px;
+ }
+
+ .prod-img {
+   width: 50px;
+   height: 50px;
+ }
+
+ tr {
+   margin: 10px 0px;
+
+   padding: 5px 0px;
+   font-size: large;
+   font-weight: 600;
+ }
+
+ td {
+   width: fit-content;
+   padding: 15px;
+ }
+
+ .in-stock {
+   color: rgb(17, 243, 40);
+   font-size: smaller;
+ }
+
+ table {
+   margin: 0px auto;
+   cursor: pointer;
+ }
+
+ .in-stock img,
+ .buy img {
+   width: 20px;
+   height: 20px;
+ }
+
+ td:hover {
+   color: rgb(181, 71, 71);
+   transform: scale(1.01);
+ }
+
+ .buy {
+   display: flex;
+ }
+
+ .buy img {
+   margin: 10px 10px;
+ }
+
+ .buy img:hover {
+   transform: scale(1.15);
+   box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+
+
+ }
+
+ .buy input {
+   max-width: 24px;
+   margin: 10px 10px;
+ }
+
+ .price,
+ .category {
+   text-align: center;
+ }
+
+ .filter {
+   display: flex;
+   margin: 5px auto;
+ }
+
+ select {
+   width: 100px;
+   height: 20px;
+   align-self: center;
+   cursor: pointer;
+   padding: 2px;
+ }
+
+ select:hover,.search-input input:hover,.search-input button:hover {
+   box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+   transform: scale(1.05);
+ }
+
+ .cart {
+   height: 50px;
+
+   width: 50px;
+ }
+
+ .filter div {
+   justify-content: space-around;
+
+ }
+
+ .cart-box {
+   margin-left: inherit;
+   margin-right: 5rem;
+   cursor: pointer;
+ }
+
+ .fc-box {
+   margin: 0px auto;
+   display: flex;
+
+
+ }
+
+ .filter-category,
+ .cart-box:hover {
+   box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+   transform: scale(1.15);
+ }
+
+ .search-input{
+  margin:  auto 20px ;
+  width: 100px;
+ }
+ .search-box h1:hover{
+  color: rgb(181, 71, 71);
+  transform: scale(1.15);
+ }
+ .search-input button{
+  margin: 5px auto;
+  margin-left: inherit;
+  padding: 2px;
+  cursor: pointer;
+ }
+ .search-input input{
+  width: 100px;
+  padding: 2px;
+ }

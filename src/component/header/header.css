@@ -1,0 +1,37 @@
+ .container-header {
+     background-color: black;
+ }
+
+ .header {
+     font-family: Nexa-Regular, Helvetica, Arial, sans-serif;
+
+     width: 100%;
+     font-size: 35px;
+     padding: 5px;
+     letter-spacing: 1px;
+     color: wheat;
+     cursor: pointer;
+     transition: all 0.2s;
+ }
+
+ .header-box {
+     z-index: -1;
+     display: flex;
+     width: fit-content;
+     margin: 0px auto;
+ }
+
+ .header:hover,
+ .header-box img:hover {
+     background-color: white;
+     color: rgb(0, 0, 0);
+     transform: scale(1.15);
+ }
+
+ .header-box img {
+     border-radius: 100%;
+     width: 60px;
+     height: 60px;
+     margin: 12px;
+     cursor: pointer;
+ }

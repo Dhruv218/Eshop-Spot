@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    margin: 15px auto;
+    justify-content: center;
+}
+
+.container div {
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.total {
+    display: flex;
+    width: 250px;
+    border: none;
+
+}
+
+.total h3,
+.total h5 {
+    margin: 0px auto;
+
+}
+
+.cart-total h1:hover,
+.total h3:hover,
+.total h5:hover {
+    color: rgb(181, 71, 71);
+    cursor: pointer;
+    transform: scale(1.01);
+
+}
+
+div h1 {
+    text-align: center;
+}
+
+.cart-total {
+    right: 100px;
+    height: fit-content;
+}
+
+.cart-total div {
+    margin: 20px auto;
+    text-align: center;
+    border: none;
+}
+
+.backtohome {
+
+    margin-top: 25px;
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 20px 0px;
+    text-decoration: none;
+
+    justify-content: center;
+    width: 15%;
+}
+
+.backtohome:hover {
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    transform: scale(1.15);
+    color: black;
+    background-color: white;
+    font-weight: 700;
+}
+
+.home {
+    width: fit-content;
+    margin: 15px auto;
+}
+
+.Checkout {
+    border-radius: 5px;
+    font-size: smaller;
+    font-weight: bold;
+    background-color: rgb(75, 75, 251);
+    transition: ease 0.2s;
+    color: white;
+
+}
+
+.Checkout:hover {
+
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    cursor: pointer;
+    font-size: medium;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+.quantity{
+    max-width: 30px;
+    padding: 3px;
+    margin-left: 10px;
+   
+}
+.quantity:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+}
